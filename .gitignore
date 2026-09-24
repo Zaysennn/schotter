@@ -1,0 +1,26 @@
+# ignore pycache in every subfolder
+**/__pycache__/
+
+# any .venv folder
+**/.venv/
+
+**/.env
+**/.python-version
+.wrangler/
+.venv-workers/
+python_modules/
+pylock.toml
+node_modules/
+
+# editor / os noise
+.DS_Store
+.vscode/
+
+# week 2 — output you make by running the scripts, not material we ship
+week02/tides/cache/
+week02/**/*.png
+week02/spec/*.svg
+
+# week 3 — the web page currents_web.py writes; a Pages workflow makes it fresh on every push
+week03/site/
+week03/data/cache/
